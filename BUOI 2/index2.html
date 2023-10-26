@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>học Table</title>
+    <link rel="stylesheet" href="./assets/css/style1.css">
+</head>
+<body>
+    <table>
+        <Form>
+        <thead>
+            <tr><th colspan="2" style="text-align: center;"> Đăng Ký </th></tr>
+        </thead>
+        <tr>
+            <th><label> Fullname</label></th>
+            <td><input type="text" placeholder="Nhập fullname" style="width: 80%;"></td>
+                        </tr>
+            <tr><th>User Name</th>
+            <td><input type="text" placeholder="Nhập tên" style="width: 80%;"></td></tr>
+            <tr><th>Password</th>
+            <td><input type="password" placeholder="Nhập mật khẩu" style="width: 80%;"></td></tr>
+            <tr><th>Nhập lại password</th>
+                <td><input type="password" placeholder="Nhập lại mật khẩu" style="width: 80%;"></td></tr>
+            <tr><th>Giới tính</th>
+                <td>
+                    <input type="radio" id="Nam" name="gioitinh" value="Nam">Nam
+                    <input type="radio" id="Nu" name="gioitinh" value="Nữ">Nữ</td>
+            </tr>
+            <tr><th> Ngày Sinh</th>
+                <td>
+                    <select>
+                        <option>Ngày 1</option>
+                    </select>
+                    <select> <option>Tháng 1</option></select>
+                    <select> <option> Năm 2015</option></select>
+                </td>
+            </tr> 
+            <tr style="height: 60px;"><th> Địa chỉ</th>
+                <td><input type="text" style="width: 80%; height: 40px;"></td></tr>
+
+            <tr><th>Avartar</th>
+            <td><input type="file"></td></tr>
+            <tr><th>Sở Thích</th>
+            <td><input type="checkbox"><Label>Xem phim</Label>
+                <input type="checkbox"><Label>Thể Thao</Label>
+                <input type="checkbox"><Label>Web</Label>
+            </td></tr> 
+            <tr><td colspan="2" style="text-align: center;"><button>Reset</button> <button>Ok</button></td></tr>  
+                    </Form></table>
+    
+</body>
+</html>
